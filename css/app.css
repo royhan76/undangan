@@ -116,12 +116,13 @@ body::-webkit-scrollbar {
     pointer-events: auto;
     background-color:#1d161600;
     background-clip: padding-box;
-    background: url("http://127.0.0.1:3000/undangan/assets/images/2.jpg");
+    background-image: url("http://127.0.0.1:3000/undangan/assets/images/2.jpg");
     border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
     border-radius: var(--bs-modal-border-radius);
     outline: 0;
     background-repeat: no-repeat;
-   background-size: cover;
+    background-size: cover;
+   
 }
 .test{
     margin-bottom: 26.5rem;
