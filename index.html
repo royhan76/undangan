@@ -30,7 +30,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
     <link rel="stylesheet" href="./css/app.css">
+    <link href="https://fonts.cdnfonts.com/css/miracles-autumn" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/miracles-autumn');
+    </style>
+
+                
 </head>
+
 
 <body data-email="user@example.com" data-password="12345678" data-url="https://undanganapi-ecru.vercel.app">
     <nav class="navbar navbar-dark bg-dark navbar-expand fixed-bottom rounded-top-4 p-0" id="navbar-example2">
@@ -78,7 +85,7 @@
                         <img src="assets/images/bg2.png" alt="bg" onclick="modalFoto(this)">
                     </div>
                 </div>
-                <h1 class="font-estetik my-4" style="font-size: 3rem;">Syhab W.S & Laelatul Fitria Mahardian</h1>
+                <h1 class="font-estetik my-4" style="font-size: 3rem;">Syhab & Dian</h1>
                 <h4>Kamis, 2 November 2023</h4>
                 <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Syhab W.S%20and%20Laelatul Fitria Mahardian&details=The%20Wedding%20of%20Syhab W.S%20and%20Laelatul Fitria Mahardian%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">
                     <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
@@ -416,9 +423,9 @@
         </div>
     </div>
 
-    <div class="modal fade" id="modalFoto" tabindex="-1" aria-labelledby="modalFotoLabel" aria-hidden="true">
+    <div class="modal fade" id="modalFoto"  tabindex="-1" aria-labelledby="modalFotoLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
+            <div class="modal-content d-block">
                 <div class="modal-body">
                     <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
                         <img src="" class="w-100" alt="foto" id="showModalFoto">
@@ -433,14 +440,18 @@
 
     <div class="modal" id="exampleModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen m-0">
-            <div class="modal-content m-0 p-0">
+            <div class="overlayy"></div>
+            <div class="modal-content m-0 p-0 center-block" >
+               
                 <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
+                    
                     <div class="text-center">
-                        <h1 class="font-estetik mb-4" style="font-size: 2.2rem;">The Wedding Of</h1>
-                        <div class="cropper border border-3 border-light shadow mb-4 mx-auto">
+                        
+                        <h1 class="font-estetik1 mb-4" style="font-size: 2.2rem;">The Wedding Of</h1>
+                        <!-- <div class="cropper border border-3 border-light shadow mb-4 mx-auto">
                             <img src="assets/images/2.jpg" alt="bg">
-                        </div>
-                        <h1 class="font-estetik my-4" style="font-size: 2.5rem;">Syhab W.S & Laelatul Fitria Mahardian</h1>
+                        </div> -->
+                        <h1 class="font-estetik2 my-4" style="font-size: 3.5rem;">Syhab & Dian</h1>
                         <div id="namatamu"></div>
                         <button type="button" class="btn btn-light shadow rounded-4 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="buka()">
                             <i class="fa-solid fa-envelope-open me-2"></i>Buka Undangan
