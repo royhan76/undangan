@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 .font-estetiknama {
     font-family: 'Berkshire Swash', sans-serif;                                                
     color: #000000 !important;
-    margin-bottom: 26.5rem;
+    margin-bottom: 20.5rem;
   
     
 }
@@ -116,11 +116,15 @@ body::-webkit-scrollbar {
     pointer-events: auto;
     background-color:#1d161600;
     background-clip: padding-box;
-    background-image: url("https://my-repo-kec9szd7x-royhan76.vercel.app/assets/images/2.jpg");
+    background-image: url("https://syhab-gembul.vercel.app/assets/images/2.jpg");
+    margin-left: 20px;
     border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
     border-radius: var(--bs-modal-border-radius);
     outline: 0;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;   
+    background-position: center center;
 }
