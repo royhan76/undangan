@@ -133,3 +133,8 @@ body::-webkit-scrollbar {
     -o-background-size: cover;   
     background-position: center center;
 }
+
+.mx-auto {
+    margin-right: 80px !important;
+    margin-left: 80px !important;
+}
