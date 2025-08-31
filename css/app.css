@@ -121,7 +121,7 @@ body::-webkit-scrollbar {
     pointer-events: auto;
     background-color:#1d161600;
     background-clip: padding-box;
-    background-image: url("https://niam-maslachah.vercel.app/assets/images/bg2.png");
+    background-image: url("/assets/images/bg21.png");
     margin-left: 20px;
     border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
     border-radius: var(--bs-modal-border-radius);
