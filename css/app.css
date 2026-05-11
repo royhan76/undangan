@@ -122,7 +122,7 @@ body::-webkit-scrollbar {
     pointer-events: auto;
     background-color:#1d161600;
     background-clip: padding-box;
-    background-image: url("https://nauval-farikhah.vercel.app/assets/images/dp2.jpeg");
+    background-image: url("https://nauval-fariha.vercel.app/assets/images/dp2.jpeg");
 
     margin-left: 20px;
     border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
