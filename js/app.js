@@ -634,10 +634,11 @@ window.addEventListener('load', () => {
         div.classList.add('m-2');
         div.innerHTML = `
         <center>
-
-<div class="card mt-3 mb-0" justify-content="center" style="width: 18rem; background-color: #ffffffd1;">
-   
-<div class="m-2">
+        <br>
+        <br>
+        <div class="card mt-3 mb-20" justify-content="center" style="width: 18rem; background-color: #ffffffd1;">
+        
+        <div class="m-2">
         <p class="mt-0 mb-1 mx-0 p-0 text-dark">Kepada Yth Bapak/Ibu/Saudara/i</p>
         <h2 class="text-dark">${escapeHtml(name)}</h2>
         </div>
